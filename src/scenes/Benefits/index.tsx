@@ -15,21 +15,22 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione, ipsum sint possimus eos quam dolores deleniti facere.",
+      "Experience cutting-edge equipment and top-tier amenities designed to support your fitness journey and ensure you achieve your best results.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione, ipsum sint possimus eos quam dolores deleniti facere.",
+      "Choose from a wide variety of classes, each tailored to different fitness levels and interests, ensuring you stay engaged and motivated.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione, ipsum sint possimus eos quam dolores deleniti facere.",
+      "Train with certified professionals who provide personalized guidance, helping you reach your fitness goals efficiently and safely.",
   },
 ];
+
 
 const container = {
   hidden: {},
@@ -133,21 +134,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Tempore libero voluptates, non, corrupti animi facere minima
-                nulla, sunt impedit ullam saepe quos placeat debitis voluptatem
-                velit ipsum repellendus veritatis ipsa. Lorem ipsum dolor sit
-                amet consectetur, adipisicing elit. Aliquam ipsa minus vitae
-                fugiat! Iusto accusantium accusamus, repellendus laboriosam
-                eligendi perspiciatis at tempore, dicta a, dolores suscipit
-                assumenda qui deleniti nihil?
-              </p>
-              <p className="mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                officiis non minus corrupti neque reiciendis quis natus
-                laboriosam aliquid, explicabo accusamus ratione quidem
-                voluptatum ipsam autem quasi voluptates. Tempora, perferendis.
-              </p>
+  Join millions of satisfied members who have transformed their health and fitness with our comprehensive programs. From personalised workouts to group classes, we provide everything you need to achieve lasting results. Our state-of-the-art facilities and expert trainers ensure you receive top-notch guidance every step of the way. Whether you're aiming for strength, endurance, or overall well-being, we have the resources to help you succeed. Start your journey today and see why so many trust us to guide their fitness goals.
+</p>
+<p className="mb-5">
+  Discover the difference of a community focused on fitness and support. With flexible membership options, you'll find the perfect plan tailored to your needs. It's time to take control of your health and join the ranks of those who've made fitness a lifestyle.
+</p>
+
             </motion.div>
 
             {/* BUTTON */}
