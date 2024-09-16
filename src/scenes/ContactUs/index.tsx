@@ -45,9 +45,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HeaderText>
           <p className="my-5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
-            ratione adipisci obcaecati amet ex, consectetur quas quos dolore
-            perspiciatis.
+          Take the first step towards a healthier, stronger you. With expert-led classes and a supportive environment, achieving your fitness goals has never been more attainable.
           </p>
         </motion.div>
 
@@ -68,7 +66,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               target="_blank"
               onSubmit={onSubmit}
               method="POST"
-              action="https://formsubmit.co/ucheomachukwuma77@gmail.com"
+              action="https://formsubmit.co/rockyrajjanwal@gmail.com"
             >
               <input
                 type="text"
