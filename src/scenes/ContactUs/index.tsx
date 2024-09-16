@@ -13,7 +13,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   const {
     register,
     trigger,
-    control,
     formState: { errors },
   } = useForm();
 
