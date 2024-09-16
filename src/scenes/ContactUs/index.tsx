@@ -1,5 +1,4 @@
 import { SelectedPage } from "@/shared/types";
-import { DevTool } from "@hookform/devtools";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
@@ -14,7 +13,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
   const {
     register,
     trigger,
-    control,
     formState: { errors },
   } = useForm();
 
@@ -147,7 +145,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           </motion.div>
         </div>
       </motion.div>
-      <DevTool control={control} />
     </section>
   );
 };
